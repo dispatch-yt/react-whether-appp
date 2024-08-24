@@ -55,8 +55,8 @@ const Home = () => {
             //create a database attribute and save it
             db.create("HOME_PAGE_SEEN", true);
             db.create("USER_DEFAULT_LOCATION", $defaultLocation);
-            db.create("TRACK_SAVED_LOCATION_WEATHER",false);
-            db.create("WEATHER_UNIT","metric");
+            db.create("TRACK_SAVED_LOCATION_WEATHER", false);
+            db.create("WEATHER_UNIT", "metric");
             navigate("weather");
           }
         });
@@ -70,7 +70,7 @@ const Home = () => {
       <div className="weather-preloader container-fluid d-flex align-items-center flex-column">
         <main className="my-5 preloader-weather-heading">
           <h2 className="text-center text-capitalize m-auto fw-bold fs-2">
-            How's today's weather?
+            How's today's weather?????
           </h2>
         </main>
 
